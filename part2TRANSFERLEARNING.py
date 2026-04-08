@@ -103,7 +103,6 @@ for epoch in range(5):
             elapsed = time.time() - start
             est_epoch = elapsed * len(train_loader)
             print(f"~{est_epoch/60:.1f} min per epoch")
-            break
 
     model.eval()
     correct, total = 0,0
