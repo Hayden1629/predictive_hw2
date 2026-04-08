@@ -1,0 +1,17 @@
+Q1.
+
+Shallow V.S Deep Neural Network. (50 points)
+
+        Generate the simulated data first using following equation. Sample 120k data as X from uniform distribution [-2*Pi, 2*Pi], then feed the sampled X into the equation to get Y. Randomly select 60K as training and 60 K as testing. (See instructions based on Figure 2 of the source paper: When and Why Are Deep Networks Better Than Shallow Ones? Links to an external site.)
+        Train 3 versions of Neural Network, with different numbers of hidden layer (NN with 1 hidden layer, 2 hidden layers and 3 hidden layers), using Mean squared error as objective function and error measurement.
+        For each version, try different number of neurals in your NN and replicate the following left plot of Figure 2 (source: When and Why Are Deep Networks Better Than Shallow Ones? Links to an external site.). (You don’t need to replicate exactly same results below but need to show the performance difference of 3 versions of Neural Networks)
+
+Q2.
+
+This is an Image classification exercise. We will play with an expired Kaggle competition, please follow the rule of Kaggle and check the following page for more information Dogs vs. Cats Redux: Kernels Edition Links to an external site.After submit you results, use screenshot to show you score (see image below). They don’t provide ranking for this competition anymore. Thus, no need to show your ranking at Public/Private Leaderboard. (Name formation of your submission: MSBA.SessionX.Yourname, please replace X and Yourname with the correct string) using the screenshot on the Private Leaderboard, along with the description of your solutions and the codes (ipynb formation is highly encouraged) as the final submission. 
+Grading:
+
+    10 points, How do you set up the model, explore feature, different model and model setting.
+    40 points, Model performance comparing with the best MSBA submission.
+    It is OK you can use idea and learn from existing Kaggle submission, but directly copy the code from Kaggle submission is strictly forbidden.
+
